@@ -1,0 +1,73 @@
+/*Selector {*/
+/*  Property: Value;*/
+/*}*/
+
+p {   
+    color:yellow;
+    font-size:12px;
+    background-color:black;
+}
+
+div p {
+    color:white;
+    font-size:25px;
+    background-color:black;
+    font-style:italic;
+}
+
+* {
+    font-family:comic;
+}
+
+.class_test {
+    font-size:150px;
+    color:blue;
+}
+
+#id_test {
+    color:orange;
+    font-size:36px;
+}
+
+.hover_test:hover {
+     color:purple;   
+}
+
+
+.rainbow {
+    font-size:70px;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+a:visited {
+    color:lime;
+}
+
+#popular {
+    color:;
+    color:#2FEBCB;
+    color:rgb(47, 235, 203);
+    color:rgba(47, 235, 203, .5);
+    background-color: ;
+    background-image:url("example.com/example.jpg");
+    background:color/url;
+    font-size:12px, 12pt, 12em;
+    font-family:Helvetica, Arial, Sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    border: 5px solid black;
+    border-radius: 5px ;
+    
+a {
+    text-decoration:none;
+}    
+    
+    
+    
+}
